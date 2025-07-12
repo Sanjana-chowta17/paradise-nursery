@@ -1,0 +1,42 @@
+.landing-container {
+  height: 100vh;
+  background-image: url('/background.jpg'); /* Add background.jpg to public folder */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.company-name {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.get-started-btn:hover {
+  background-color: #388e3c;
+}
